@@ -8,7 +8,8 @@
 	require_once 'mobile_useragent_carrier.php';
 
 	// キャリア, 機種, タイプを判別する。
-	list($carrier, $model, $type) = mobile_useragent_carrier();
+	//list($carrier, $model, $type) = mobile_useragent_carrier();
+	$mobile_data = mobile_useragent_carrier();
 
 ?>
 <html>
@@ -26,19 +27,21 @@
 アクセスしている携帯電話は<br />
 
 ▼キャリア<br>
-<?php echo $carrier; ?><br />
+<!-- <?php echo $carrier; ?><br /> -->
 <?php echo $mobile_data['carrier']; ?><br />
 
 
 ▼機種名<br>
-<?php echo $model; ?><br />
+<!-- <?php echo $model; ?><br /> -->
 <?php echo $mobile_data['model']; ?><br />
 
 ▼ブラウザタイプ<br>
-<?php echo $type; ?><br />
+<!-- <?php echo $type; ?><br /> -->
 <?php echo $mobile_data['type']; ?><br />
 
-
+<pre>
+<?php print_r($_SERVER); ?>
+</pre>
 </body>
 </html>
 

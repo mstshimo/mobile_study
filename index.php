@@ -1,3 +1,7 @@
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+?>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset='Shift-JIS'" />
@@ -7,8 +11,13 @@
 <title>携帯サイト学習</title>
 </head>
 <body>
+携帯サイト学習<br />
+<hr>
+
 1.<a href="mobile_bbs.php">1行掲示板</a><br />
 
-2.<a href="chap3_carrier.php">キャリア、機種判別</a>
+2.<a href="chap3_carrier.php">キャリア、機種判別</a><br />
+
+3.<a href="mobile_ip_carrier.php">IPによる、キャリア判別</a><br />
 
 </body>

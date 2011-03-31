@@ -1,6 +1,6 @@
 <?php
-ini_set('display_errors','On');
 error_reporting(E_ALL);
+ini_set('display_errors', '1');
 
 
 // Net_UserAgent_Mobile
@@ -78,7 +78,7 @@ function mobile_useragent_carrier(){
 
 		// auはデバイス名しかとれない
 		// デバイス名から機種名を紐づかせるしかない。別途データ必要。
-		$mobile_data['model'] = $agent->getModel;
+		$mobile_data['model'] = $agent->getModel();
 
 		// XHTML対応か？
 		$mobile_data['xhtml'] = $agent->isXHTMLCompliant();
@@ -89,18 +89,25 @@ function mobile_useragent_carrier(){
 		// auユーザID(サブスクライバID)
 		$mobile_data['subno'] = $_SERVER['HTTP_X_UP_SUBNO'];
 
-		/*
-		$carrier = 'au';
+
+		$mobile_data['xhtml'] =  $agent->isXHTMLCompliant();
+
+
+		$mobile_data['win'] =  $agent->isWIN();
+
+
+		//$carrier = 'au';
 
 		// ブラウザタイプ
 		if($agent->isWAP2()){
 			$type = 'wap2.0';
+			$mobile_data['type'] = $type;
 
 		}else{
 			// HDMLタイプ
 			$type = 'hdml';
+			$mobile_data['type'] = $type;
 		}
-		*/
 
 	}else if($agent->isSoftBank()){
 		// softbank
@@ -150,6 +157,8 @@ function mobile_useragent_carrier(){
 
 	}else{
 		$mobile_data['carrier'] = 'pc';
+		$mobile_data['model'] = 'Could not get the model.';
+		$mobile_data['type'] = "Could not get the type.";
 
 		/*
 		// その他のキャリア

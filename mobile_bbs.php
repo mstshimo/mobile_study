@@ -58,7 +58,8 @@ fclose($handle);
 </head>
 
 <body>
-mstshimo¤ÎŽÓŽÊŽÞŽ²ŽÙ·Ç¼¨ÈÄ
+mstshimo¤ÎŽÓŽÊŽÞŽ²ŽÙ·Ç¼¨ÈÄ<br />
+<hr>
 
 <form action="" method="get">
 <input type="text" name="comment" value="" />
