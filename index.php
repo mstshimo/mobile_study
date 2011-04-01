@@ -14,10 +14,10 @@ ini_set('display_errors', '1');
 携帯サイト学習<br />
 <hr>
 
-1.<a href="mobile_bbs.php">1行掲示板</a><br />
+1.<a href="chap3/mobile_bbs.php">1行掲示板</a><br />
 
-2.<a href="chap3_carrier.php">キャリア、機種判別</a><br />
+2.<a href="chap3/chap3_carrier.php">キャリア、機種判別</a><br />
 
-3.<a href="mobile_ip_carrier.php">IPによる、キャリア判別</a><br />
+3.<a href="chap3/mobile_ip_carrier.php">IPによる、キャリア判別</a><br />
 
 </body>
