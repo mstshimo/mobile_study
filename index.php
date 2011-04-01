@@ -20,4 +20,6 @@ ini_set('display_errors', '1');
 
 3.<a href="chap3/mobile_ip_carrier.php">IPによる、キャリア判別</a><br />
 
+4.<a href="chap4/chap4_xhtml.php">XHTMLのページ</a><br />
+
 </body>
