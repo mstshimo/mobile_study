@@ -36,22 +36,22 @@ function mobile_xhtml_doctype(){
 		$type = $agent->getHTMLVersion();
 
 		if($agent->isFOMA()){
-			if(srcmp($type, "4.0") == 0){
+			if(strcmp($type, "4.0") == 0){
 				// html ver4 ¤Ï¡¢ xhtml1.0
 				$doctype = constant("DOCOMO_1_DOCTYPE");
-			}else if(srcmp($type, "5.0") == 0){
+			}else if(strcmp($type, "5.0") == 0){
 				$doctype = constant("DOCOMO_1_1_DOCTYPE");
 
-			}else if(srcmp($type, "6.0") == 0){
+			}else if(strcmp($type, "6.0") == 0){
 				$doctype = constant("DOCOMO_2_0_DOCTYPE");
 
-			}else if(srcmp($type, "7.0") == 0){
+			}else if(strcmp($type, "7.0") == 0){
 				$doctype = constant("DOCOMO_2_1_DOCTYPE");
 
-			}else if(srcmp($type, "7.1") == 0){
+			}else if(strcmp($type, "7.1") == 0){
 				$doctype = constant("DOCOMO_2_2_DOCTYPE");
 
-			}else if(srcmp($type, "7.2") == 0){
+			}else if(strcmp($type, "7.2") == 0){
 				$doctype = constant("DOCOMO_2_3_DOCTYPE");
 
 			}
