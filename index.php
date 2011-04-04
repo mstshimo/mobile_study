@@ -8,29 +8,41 @@ ini_set('display_errors', '1');
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Cache-Control" content="no-cache" />
 <meta http-equiv="Expires" content="-1" />
-<title>Œg‘ÑƒTƒCƒgŠwK</title>
+<title>·ÈÂÓ¥µ¥¤¥È³Ø½¬</title>
 </head>
 <body>
-Œg‘ÑƒTƒCƒgŠwK<br />
+·ÈÂÓ¥µ¥¤¥È³Ø½¬<br />
 <hr>
-ì¬‚µ‚½ƒvƒƒOƒ‰ƒ€‚Ígithub‚ÉƒRƒ~ƒbƒg‚µ‚Ä‚ ‚è‚Ü‚·B<br />
-<a href="http://github.com/mstshimo/mobile_study/">github(PC‚©‚ç‚Ì‚Ý)</a><br />
+ºîÀ®¤·¤¿¥×¥í¥°¥é¥à¤Ïgithub¤Ë¥³¥ß¥Ã¥È¤·¤Æ¤¢¤ê¤Þ¤¹¡£<br />
+<a href="http://github.com/mstshimo/mobile_study/">github(PC¤«¤é¤Î¤ß)</a><br />
 <br />
 
-1.<a href="chap3/mobile_bbs.php">1sŒfŽ¦”Â</a><br />
+PHP¤È¸À¤¦¥×¥í¥°¥é¥ß¥ó¥°¸À¸ì¤ÇºîÀ®¤·¤Æ¤¤¤Þ¤¹¡£<br />
+PHP5.3¤òÍøÍÑ¤·¤Æ¤¤¤Þ¤¹¤¬¡¢PEAR¤È¥é¥¤¥Ö¥é¥ê¤¬5.3¾å¤Ç¤Ï<br />
+¥¨¥é¡¼¤Ë¤Ê¤ë²Õ½ê¤¬¤¢¤ê¡¢ÆÃ¤Ëdocomo¤Ç¥¨¥é¡¼¤¬¸«¤¨¤Æ¤¤¤Þ¤¹¡£<br />
 
-2.<a href="chap3/chap3_carrier.php">ƒLƒƒƒŠƒAA‹@Ží”»•Ê</a><br />
+1.<a href="chap3/mobile_bbs.php">1¹Ô·Ç¼¨ÈÄ</a><br />
 
-3.<a href="chap3/mobile_ip_carrier.php">IP‚É‚æ‚éAƒLƒƒƒŠƒA”»•Ê</a><br />
+3-1.<a href="chap3/chap3_carrier.php">¥­¥ã¥ê¥¢¡¢µ¡¼ïÈ½ÊÌ</a><br />
 
-4.<a href="chap4/chap4_xhtml.php">Œg‘Ñ‹@Ží‚É‰ž‚¶‚ÄAdoctypeéŒ¾‚ð•Ï‚¦‚Ä‚¢‚éAXHTML‚Ìƒy[ƒW</a><br />
+3-2.<a href="chap3/mobile_ip_carrier.php">IP¤Ë¤è¤ë¡¢¥­¥ã¥ê¥¢È½ÊÌ</a><br />
 
-5.’[––‚ÉÅ“K‚È‰æ–Ê‚Å‰æ‘œ‚ð•\Ž¦‚·‚é<br>
-<a href="chap4/mobile_image_size.php?image_name=profile-m.jpg">‚Ý‚©‚ñ”L</a><br />
-<a href="chap4/mobile_image_size.php?image_name=profile-s.jpg">“ü‚Á‚Ä‚é”L</a><br />
-<a href="chap4/mobile_image_size.php?image_name=cat_punch.png">”Lƒpƒ“ƒ`(docomoŒ©‚ê‚Ü‚¹‚ñ)</a><br />
-<a href="chap4/mobile_image_size.php?image_name=cat_punch.gif">”Lƒpƒ“ƒ`(gif)</a><br />
-<a href="chap4/mobile_image_size.php?image_name=boxcat.gif">box”L</a><br />
+4.Ã¼Ëö¤ËºÇÅ¬¤Ê²èÌÌ¤Ç²èÁü¤òÉ½¼¨¤¹¤ë<br>
+4-1.<a href="chap4/chap4_xhtml.php">XHTMLÉ½¼¨</a><br />
 
+4-2.·ÈÂÓÃ¼Ëö¤ËºÇÅ¬¤Ê²èÁü¤ò½ÐÎÏ<br>
+<a href="chap4/mobile_image_size.php?image_name=profile-m.jpg">¤ß¤«¤óÇ­</a><br />
+<a href="chap4/mobile_image_size.php?image_name=profile-s.jpg">Æþ¤Ã¤Æ¤ëÇ­</a><br />
+<a href="chap4/mobile_image_size.php?image_name=cat_punch.png">Ç­¥Ñ¥ó¥Á(docomo¸«¤ì¤Þ¤»¤ó)</a><br />
+<a href="chap4/mobile_image_size.php?image_name=cat_punch.gif">Ç­¥Ñ¥ó¥Á(gif)</a><br />
+<a href="chap4/mobile_image_size.php?image_name=boxcat.gif">boxÇ­</a><br />
+
+5.³Æ¥­¥ã¥ê¥¢³¨Ê¸»úÉ½¼¨<br />
+5-a.<a href="chap5/emojioutput_typea.php">½ÐÎÏ¥Ú¡¼¥¸Ã±°ÌÀÚ¤êÂØ¤¨Êý¼°</a><br />
 
 </body>
+
+<?php
+require_once 'chap3/output_encode.php';
+output_encode();
+?>
