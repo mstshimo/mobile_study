@@ -40,8 +40,9 @@ PHP5.3を利用していますが、PEARとライブラリが5.3上では<br />
 5.各キャリア絵文字表示<br />
 各キャリアで表示するページを切り替えています。<br />
 複数キャリア持っている人は試してみてね。<br />
-5-a.<a href="chap5/emojioutput_typea.php">出力ページ単位切り替え方式</a><br />
-5-b.<a href="chap5/emojioutput_typeb.php">絵文字単位切り替え方式</a><br />
+5-a.<a href="chap5/emoji_output_typea.php">出力ページ単位切り替え方式</a><br />
+5-b.<a href="chap5/emoji_output_typeb.php">絵文字単位切り替え方式</a><br />
+5-c.<a href="chap5/emoji_output_typec_view.php">絵文字単位切り替え方式</a><br />
 
 
 脱線:検索ロボットのテスト(googleにクロールさせて、検索に引っかかるかのテスト)<br />
