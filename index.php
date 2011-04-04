@@ -38,6 +38,8 @@ PHP5.3を利用していますが、PEARとライブラリが5.3上では<br />
 <a href="chap4/mobile_image_size.php?image_name=boxcat.gif">box猫</a><br />
 
 5.各キャリア絵文字表示<br />
+各キャリアで表示するページを切り替えています。<br />
+複数キャリア持っている人は試してみてね。<br />
 5-a.<a href="chap5/emojioutput_typea.php">出力ページ単位切り替え方式</a><br />
 
 </body>
