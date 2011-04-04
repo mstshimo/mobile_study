@@ -87,23 +87,23 @@ if(empty($view_y)){
 
 
 // 画像を開く
-if(strcmp($image_type, 'jpg') == 0){
+if(strcmp($output_image_type, 'jpg') == 0){
 	$image_data = @imagecreatefromjpeg($image_file);
-}else if(strcmp($image_type, 'gif') == 0){
+}else if(strcmp($output_image_type, 'gif') == 0){
 	$image_data = @imagecreatefromgif($image_file);
 }else{
 	$image_data = @imagecreatefrompng($image_file);
 }
 
-// 読み込んだ画像のリサイズ
+// 読み込んだ画像のサイズ取得
 $image_x = @imagesx($image_data);
-
 $image_y = @imagesy($image_data);
 
 // アスペクト比を保ったまま出力する画像サイズを決定する
 $output_image_x = $image_x;
 $output_image_y = $image_y;
 
+// リサイズ
 if($image_x > $image_y){
 	if($image_x > $view_x){
 		$output_image_x = $view_x;

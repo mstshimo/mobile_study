@@ -29,6 +29,7 @@ ini_set('display_errors', '1');
 <a href="chap4/mobile_image_size.php?image_name=profile-m.jpg">‚Ý‚©‚ñ”L</a><br />
 <a href="chap4/mobile_image_size.php?image_name=profile-s.jpg">“ü‚Á‚Ä‚é”L</a><br />
 <a href="chap4/mobile_image_size.php?image_name=cat_punch.png">”Lƒpƒ“ƒ`(docomoŒ©‚ê‚Ü‚¹‚ñ)</a><br />
+<a href="chap4/mobile_image_size.php?image_name=cat_punch.gif">”Lƒpƒ“ƒ`(gif)</a><br />
 <a href="chap4/mobile_image_size.php?image_name=boxcat.gif">box”L</a><br />
 
 
