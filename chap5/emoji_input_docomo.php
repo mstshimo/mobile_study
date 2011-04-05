@@ -52,4 +52,31 @@ function emoji_text_input($data){
 }
 
 
+function emoji_text_input_patch($data_patch){
+	if(empty($data_patch)){
+		return $data_patch;
+	}
+
+	$old_data = $data_patch;
+	$new_data = '';
+
+	while(1){
+		if(mb_strlen($old_data) == 0){
+			break;
+		}
+
+		// mb_substrは、バイトに関係なく、1文字として取得できる。
+		$moji = mb_substr($old_data, 0, 1, 'SJIS-win');
+		$old_data = mb_substr($old_data, 1, mb_strlen($old_data), 'SJIS-win');
+
+		$output = preg_replace_callback('/(\xF8[\x9F-\xFC])|(\xF9[\x40-\xFC])/', 'emoji_input', $moji);
+
+		$new_data .= $output;
+	}
+
+
+	return $output;
+}
+
+
 ?>
