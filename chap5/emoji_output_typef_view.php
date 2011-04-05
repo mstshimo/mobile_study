@@ -9,6 +9,8 @@ ob_start();
 <body>
 こんにちは! <emoji=1,2,3>
 
+こんばんは! <emoji=5,5,5>
+
 </body>
 </html>
 
