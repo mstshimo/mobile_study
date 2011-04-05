@@ -47,6 +47,8 @@ PHP5.3を利用していますが、PEARとライブラリが5.3上では<br />
 5-e. <a href="chap5/emoji_output_typee_view.php">内部絵文字管理方式</a><br />
 5-f. <a href="chap5/emoji_output_typef_view.php">キャリア別内部絵文字管理方式</a><br />
 
+5-aa. <a href="chap5/emoji_input_docomo_view.php">絵文字入力を取得する(docomo)</a><br />
+
 <br />
 脱線:検索ロボットのテスト(googleにクロールさせて、検索に引っかかるかのテスト)<br />
 analyticsも入れてみた。<br />
