@@ -21,7 +21,7 @@ PHPと言うプログラミング言語で作成しています。<br />
 PHP5.3を利用していますが、PEARとライブラリが5.3上では<br />
 エラーになる箇所があり、特にdocomoでエラーが見えています。<br />
 
-1.<a href="chap3/mobile_bbs.php">1行掲示板</a><br />
+1.<a href="chap2/mobile_bbs.php">1行掲示板</a><br />
 
 3-1.<a href="chap3/chap3_carrier.php">キャリア、機種判別</a><br />
 
@@ -54,6 +54,6 @@ analyticsも入れてみた。<br />
 </body>
 
 <?php
-require_once 'chap3/output_encode.php';
+require_once 'chap2/output_encode.php';
 output_encode();
 ?>
