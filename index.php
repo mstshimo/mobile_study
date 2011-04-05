@@ -43,8 +43,11 @@ PHP5.3を利用していますが、PEARとライブラリが5.3上では<br />
 5-a.<a href="chap5/emoji_output_typea.php">出力ページ単位切り替え方式</a><br />
 5-b.<a href="chap5/emoji_output_typeb.php">絵文字単位切り替え方式</a><br />
 5-c.<a href="chap5/emoji_output_typec_view.php">絵文字単位切り替え方式</a><br />
+5-d. cと似ていたので省略<br />
+5-e. <a href="chap5/emoji_output_typee_view.php">内部絵文字管理方式</a><br />
+5-f. <a href="chap5/emoji_output_typef_view.php">キャリア別内部絵文字管理方式</a><br />
 
-
+<br />
 脱線:検索ロボットのテスト(googleにクロールさせて、検索に引っかかるかのテスト)<br />
 analyticsも入れてみた。<br />
 <a href="http://msworks.homelinux.com/robot_test/index.html"></a>
