@@ -75,7 +75,7 @@ function emoji_text_input_patch($data_patch){
 	}
 
 
-	return $output;
+	return $new_data;
 }
 
 
