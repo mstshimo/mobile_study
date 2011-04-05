@@ -26,7 +26,7 @@ $output_patch = htmlspecialchars($_POST['data_patch']);
 </head>
 <body>
 <h4>絵文字を、内部的に管理している、&lt;emoji=番号,,,&gt; に変換する。</h4>
-画面下に結果が出ます。<br />
+画面下に結果が出ます。<br /><br />
 
 ■docomo絵文字入力<br />
 飲食店 &#xE63E; と入力すると、飲食店が化ける。<br />
