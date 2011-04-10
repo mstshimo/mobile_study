@@ -52,6 +52,7 @@ PHP5.3を利用していますが、PEARとライブラリが5.3上では<br />
 5-ac. <a href="chap5/emoji_input_softbank_not_3gc_view.php">絵文字入力を取得する(3GC以外のsoftbank)端末がないから試してない。</a><br />
 5-ad. <a href="chap5/emoji_input_softbank_sjis_view.php">絵文字入力を取得する(3GC端末)</a><br />
 
+5-ae. <a href="chap5/code_change_view.php">出力コード変換</a><br />
 
 
 <br />
