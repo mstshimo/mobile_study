@@ -50,6 +50,9 @@ PHP5.3を利用していますが、PEARとライブラリが5.3上では<br />
 5-aa. <a href="chap5/emoji_input_docomo_view.php">絵文字入力を取得する(docomo)</a><br />
 5-ab. <a href="chap5/emoji_input_au_view.php">絵文字入力を取得する(au)</a><br />
 5-ac. <a href="chap5/emoji_input_softbank_not_3gc_view.php">絵文字入力を取得する(3GC以外のsoftbank)端末がないから試してない。</a><br />
+5-ad. <a href="chap5/emoji_input_softbank_sjis_view.php">絵文字入力を取得する(3GC端末)</a><br />
+
+
 
 <br />
 脱線:検索ロボットのテスト(googleにクロールさせて、検索に引っかかるかのテスト)<br />

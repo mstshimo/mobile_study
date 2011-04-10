@@ -5,7 +5,7 @@ ini_set('display_errors', '1');
 
 
 // Net_UserAgent_Mobile
-require_once('Net/UserAgent/Mobile.php');
+require_once 'Net/UserAgent/Mobile.php';
 
 // docomo
 define("DOCOMO_1_DOCTYPE", '<!DOCTYPE html PUBLIC "-//i-mode group (ja)//DTD XHTML i-XHTML(Locale/Ver.=ja/1.0) 1.0//EN" "i-xhtml_4ja_10.dtd">');
