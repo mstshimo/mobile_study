@@ -1,7 +1,5 @@
 <?php
 
-require_once 'output_encode.php';
-
 require_once 'mobile_xhtml_doctype.php';
 
 ob_start();
@@ -29,5 +27,6 @@ XHTMLで表示する(Chap4)
 </html>
 
 <?php
+require_once 'output_encode.php';
 output_encode();
 ?>
