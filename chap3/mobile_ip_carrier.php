@@ -28,14 +28,14 @@ function mobile_ip_carrier(){
 	$ip_table['docomo'][] = '202.229.177.0/24';
 	$ip_table['docomo'][] = '202.229.178.0/24';
 
-	// 2011擭7寧1擔埲崀 捛壛梊掕
+	// 2011钳7奉1泣笆惯 纳裁徒年
 	$ip_table['docomo'][] = '202.229.179.0/24'; 
 	$ip_table['docomo'][] = '111.89.188.0/24';
 	$ip_table['docomo'][] = '111.89.189.0/24';
 	$ip_table['docomo'][] = '111.89.190.0/24';
 	$ip_table['docomo'][] = '111.89.191.0/24';
 
-	//僼儖僽儔僂僓
+	//フルブラウザ
 	$ip_table['docomo'][] = '210.153.87.0/24';
 
 	// au
@@ -71,14 +71,14 @@ function mobile_ip_carrier(){
 	$ip_table['au'][] = '111.86.143.224/27';
 	$ip_table['au'][] = '111.86.147.0/27';
 
-	// 2010擭12寧梊掕
+	// 2010钳12奉徒年
 	$ip_table['au'][] = '111.86.142.128/27';
 	$ip_table['au'][] = '111.86.142.160/27';
 	$ip_table['au'][] = '111.86.142.192/27';
 	$ip_table['au'][] = '111.86.142.224/27';
 	$ip_table['au'][] = '111.86.143.0/27';
 
-	// 2011擭1寧梊掕
+	// 2011钳1奉徒年
 	$ip_table['au'][] = '111.86.143.32/27';
 	$ip_table['au'][] = '111.86.147.32/27';
 	$ip_table['au'][] = '111.86.147.64/27';
@@ -95,7 +95,7 @@ function mobile_ip_carrier(){
 	$ip_table['softbank'][] = '202.253.96.224/27';
 	$ip_table['softbank'][] = '210.146.7.192/26';
 
-	// 僼儖僽儔僂僓
+	// フルブラウザ
 	$ip_table['softbank'][] = '123.108.237.224/27';
 	$ip_table['softbank'][] = '202.253.96.0/27';
 
@@ -125,11 +125,11 @@ function mobile_ip_carrier(){
 
 ?>
 <html>
-<head><title>IP偵傛傞僉儍儕傾敾掕(Chap3)</title></head>
+<head><title>IPによるキャリア冉年(Chap3)</title></head>
 <body>
-IP偵傛傞僉儍儕傾敾掕(Chap3)<br />
+IPによるキャリア冉年(Chap3)<br />
 <hr>
-仴傾僋僙僗偟偰偄傞僉儍儕傾偼丅<br>
+ⅶアクセスしているキャリアは。<br>
 <?php 
 echo mobile_ip_carrier();
 ?>
@@ -137,3 +137,7 @@ echo mobile_ip_carrier();
 </body>
 </html>
 
+<?php
+require_once '../chap2/output_encode.php';
+output_encode();
+?>

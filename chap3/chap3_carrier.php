@@ -1,9 +1,6 @@
 <?php
 # EUC CRLF
 
-	// 内部文字コードを出力文字コードに変換するライブラリ
-	require_once '../chap2/output_encode.php';
-
 	// キャリア, 機種を判別するライブラリ
 	require_once 'mobile_useragent_carrier.php';
 
@@ -53,6 +50,9 @@
 </html>
 
 <?php 
+// 内部文字コードを出力文字コードに変換するライブラリ
+require_once '../chap2/output_encode.php';
+
 //内部文字コードを出力文字コードに変換する
 output_encode();
 

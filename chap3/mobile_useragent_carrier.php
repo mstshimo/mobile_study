@@ -11,7 +11,7 @@ require_once('Net/UserAgent/Mobile.php');
 function mobile_useragent_carrier(){
 	// Net_UserAgent_Mobileをインスタンス化する
 
-	$agent = &Net_UserAgent_Mobile::factory();
+	$agent = Net_UserAgent_Mobile::factory();
 
 	// 端末情報
 	$mobaile_data = array();
