@@ -43,6 +43,6 @@ $output = htmlspecialchars($_POST['data']);
 </html>
 
 <?php
-require_once 'output_encode.php';
+require_once '../chap2/output_encode.php';
 output_encode();
 ?>
