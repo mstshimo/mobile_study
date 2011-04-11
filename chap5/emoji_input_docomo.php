@@ -1,4 +1,5 @@
 <?php
+# EUC CRLF
 $emoji_data_array = '';
 
 function emoji_input($matches){
@@ -65,7 +66,7 @@ function emoji_text_input_patch($data_patch){
 			break;
 		}
 
-		// mb_substrは、バイトに関係なく、1文字として取得できる。
+		// mb_substr､ﾏ｡｢･ﾐ･､･ﾈ､ﾋｴﾘｷｸ､ﾊ､ｯ｡｢1ﾊｸｻ妤ﾈ､ｷ､ﾆｼ霹ﾀ､ﾇ､ｭ､�｡｣
 		$moji = mb_substr($old_data, 0, 1, 'SJIS-win');
 		$old_data = mb_substr($old_data, 1, mb_strlen($old_data), 'SJIS-win');
 
