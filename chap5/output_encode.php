@@ -1,11 +1,24 @@
 <?php
+# EUC CRLF
+
+# ﾆ篷ｸｻ妺ｳ｡ｼ･ﾉ､ﾐﾎﾏﾊｸｻ妺ｳ｡ｼ･ﾉ､ﾘﾊﾑｴｹ
 
 ini_set('display_errors','On');
 error_reporting(E_ALL);
 
-# EUC CRLF
+require_once 'Net/UserAgent/Mobile.php';
 
-// 内部文字コードを出力文字コードに変換する。
 function output_encode(){
-	ini_set('mbstring.http_output', 'SJIS-win');
+
+	$output_encode = 'SJIS-win';
+
+	$agent = Net_UserAgent_Mobile::factory();
+	if($agent->isSoftBank()){
+		if($agent->isType3GC()){
+			$output_encode = 'UTF-8';
+		}
+	}
+
+	ini_set('mbstring.http_output', $output_encode);
+
 }
