@@ -1,7 +1,14 @@
 <html>
-6-1. <a href="mobile_mail.php">ƒNƒŠƒbƒN‚·‚é‚Æ4mo6`‚Éƒ[ƒ‹‚ª”ò‚Ñ‚Ü‚·B</a><br />
+6-1. <a href="mobile_mail.php">¥¯¥ê¥Ã¥¯¤¹¤ë¤È4mo6¡Á¤Ë¥á¡¼¥ë¤¬Èô¤Ó¤Þ¤¹¡£</a><br />
 
-6-2. <a href="emoji_mail_docomo.php">ƒNƒŠƒbƒN‚·‚é‚Æ4mo6`‚Édocomoƒ[ƒ‹‚ª”ò‚Ñ‚Ü‚·B</a><br />
+6-2. <a href="emoji_mail_docomo.php">¥¯¥ê¥Ã¥¯¤¹¤ë¤È4mo6¡Á¤Ëdocomo·ÈÂÓÍÑ¥á¡¼¥ë¤¬Èô¤Ó¤Þ¤¹¡£</a><br />
 
+6-2. <a href="emoji_mail_au.php">¥¯¥ê¥Ã¥¯¤¹¤ë¤È4mo6¡Á¤Ëau·ÈÂÓÍÑ¥á¡¼¥ë¤¬Èô¤Ó¤Þ¤¹¡£</a><br />
+
+6-3. <a href="emoji_mail_softbank.php">¥¯¥ê¥Ã¥¯¤¹¤ë¤È4mo6¡Á¤Ësoftbank·ÈÂÓÍÑ¥á¡¼¥ë¤¬Èô¤Ó¤Þ¤¹¡£</a><br />
 
 </html>
+<?php
+require_once '../chap2/output_encode.php';
+output_encode();
+?>

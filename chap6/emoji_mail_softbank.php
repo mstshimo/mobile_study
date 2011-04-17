@@ -6,8 +6,8 @@ $recipients = '';
 
 $from = '';
 
-$emoji = "\xF8\x9F";
-$subject = '¤³¤ó¤Ë¤Á¤Ï';
+$emoji = "\$Gj";
+$subject = '¤³¤ó¤Ë¤Á¤Ïsoftbank';
 
 $subject = mb_convert_encoding($subject,"SJIS-win", mb_internal_encoding());
 $subject .= $emoji;
@@ -16,7 +16,7 @@ $subject .= $emoji;
 $subject = base64_encode($subject);
 $subject = '=?Shift-JIS?B?' . $subject . '?=';
 
-$body = 'º£Æü¤ÏÀ²¤ì';
+$body = 'º£Æü¤ÏÀ²¤ìsoftbank';
 $body = mb_convert_encoding($body, 'SJIS-win', mb_internal_encoding());
 $body .= $emoji;
 

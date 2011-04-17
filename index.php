@@ -63,6 +63,7 @@ PHP5.3を利用していますが、PEARとライブラリが5.3上では<br />
 analyticsも入れてみた。<br />
 <a href="http://msworks.homelinux.com/robot_test/index.html"></a>
 </body>
+</html>
 
 <?php
 require_once 'chap2/output_encode.php';

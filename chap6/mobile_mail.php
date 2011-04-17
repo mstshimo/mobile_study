@@ -16,7 +16,7 @@ $body = mb_convert_encoding($body, 'ISO-2022-JP', mb_internal_encoding());
 
 $headers = array();
 $headers['From'] = $from;
-$headers['To'] = $recipeints;
+$headers['To'] = $recipients;
 $headers['Subject'] = $subject;
 $headers['Sender'] = $from;
 
