@@ -58,7 +58,7 @@ if($agent->isDoCoMo()){
 }else if($agent->isEZweb()){
 	// WAP2.0でなければ、pngに変換
 	if(!$agent->isWAP2()){
-		$output_image_type = 'gng';
+		$output_image_type = 'png';
 	}
 
 }else if($agent->isSoftBank()){
@@ -132,6 +132,7 @@ if(strcmp($output_image_type, $image_type) == 0
 	readfile($image_file);
 }
 
+
 // 出力画像を作成する
 if(strcmp($output_image_type, 'jpg') == 0){
 	// 綺麗な画像
@@ -141,18 +142,19 @@ if(strcmp($output_image_type, 'jpg') == 0){
 	header('Content-Type: image/jpeg');
 	@imagejpeg($output_image_data);
 
-
 }else if(strcmp($output_image_type, 'gif') == 0){
+
 	$output_image_data = @imagecreate($output_image_x, $output_image_y);
 	@imagecopyresized($output_image_data, $image_data, 0, 0, 0, 0, $output_image_x, $output_image_y, $image_x, $image_y);
 
 	header('Content-Type: image/gif');
 	@imagegif($output_image_data);
+
 }else{
+
 	// 綺麗な画像
 	$output_image_data = @imagecreatetruecolor($output_image_x, $output_image_y);
 	@imagecopyresampled($output_image_data, $image_data, 0, 0, 0, 0, $output_image_x, $output_image_y, $image_x, $image_y);
-
 	header('Content-Type: image/png');
 	@imagepng($output_image_data);
 }

@@ -31,11 +31,12 @@ PHP5.3を利用していますが、PEARとライブラリが5.3上では<br />
 4-1.<a href="chap4/chap4_xhtml.php">XHTML表示</a><br />
 
 4-2.携帯端末に最適な画像を出力<br>
-<a href="chap4/mobile_image_size.php?image_name=profile-m.jpg">みかん猫</a><br />
-<a href="chap4/mobile_image_size.php?image_name=profile-s.jpg">入ってる猫</a><br />
-<a href="chap4/mobile_image_size.php?image_name=cat_punch.png">猫パンチ(docomo見れません)</a><br />
+<a href="chap4/mobile_image_size.php?image_name=profile-m.jpg">みかん猫(jpg)</a><br />
+<a href="chap4/mobile_image_size.php?image_name=profile-s.jpg">入ってる猫(jpg)</a><br />
+<a href="chap4/mobile_image_size.php?image_name=chibi_cat.png">子猫(png)</a><br />
+<a href="chap4/mobile_image_size.php?image_name=cat_punch.png">猫パンチ(png)(docomo動きません)</a><br />
 <a href="chap4/mobile_image_size.php?image_name=cat_punch.gif">猫パンチ(gif)</a><br />
-<a href="chap4/mobile_image_size.php?image_name=boxcat.gif">box猫</a><br />
+<a href="chap4/mobile_image_size.php?image_name=boxcat.gif">box猫(gif)</a><br />
 
 5.各キャリア絵文字表示<br />
 各キャリアで表示するページを切り替えています。<br />
@@ -56,7 +57,11 @@ PHP5.3を利用していますが、PEARとライブラリが5.3上では<br />
 5-af. <a href="chap5/emoji_input_softbank_utf8_view.php">softbank絵文字入力 utf-8</a><br />
 
 
-6-a. <a href="chap6/index.php">emojiメール</a><br />
+6-1. <a href="chap6/index.php">emojiメールいろいろ、認証掛けてます</a><br />
+6-2. <a href="mailto:regist@msworks.homelinux.com">空メールを送ると、返信メールが自動で行きます。
+ワンクリック詐欺のジョークです</a><br />
+
+7-1. <a href="chap7/docomo_view.html">docomo FOMA端末製造番号取得</a><br />
 
 <br />
 脱線:検索ロボットのテスト(googleにクロールさせて、検索に引っかかるかのテスト)<br />
