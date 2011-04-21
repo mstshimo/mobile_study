@@ -61,7 +61,10 @@ PHP5.3を利用していますが、PEARとライブラリが5.3上では<br />
 6-2. <a href="mailto:regist@msworks.homelinux.com">空メールを送ると、返信メールが自動で行きます。
 ワンクリック詐欺のジョークです</a><br />
 
-7-1. <a href="chap7/docomo_view.html">docomo FOMA端末製造番号取得</a><br />
+7-1. <a href="chap7/docomo_view.php">docomo FOMAいろいろ取得</a><br />
+7-2. <a href="chap7/au_view.php">au いろいろ取得</a><br />
+7-3. <a href="chap7/softbank_view.php">SoftBank いろいろ取得</a><br />
+
 
 <br />
 脱線:検索ロボットのテスト(googleにクロールさせて、検索に引っかかるかのテスト)<br />
